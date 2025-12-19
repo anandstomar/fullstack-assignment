@@ -42,20 +42,16 @@ I structured the application into two main directories: `client` (frontend) and 
 
 I designed four main data schemas to meet the data management requirements:
 
-1. 
-**Projects:** Stores image URL, name, and description .
+1. **Projects:** Stores image URL, name, and description .
 
 
-2. 
-**Clients:** Stores image URL, name, description, and designation .
+2. **Clients:** Stores image URL, name, description, and designation .
 
 
-3. 
-**Contacts:** Stores form submissions (Name, Email, Mobile, City) .
+3. **Contacts:** Stores form submissions (Name, Email, Mobile, City) .
 
 
-4. 
-**Subscribers:** Stores email addresses for the newsletter.
+4. **Subscribers:** Stores email addresses for the newsletter.
 
 
 
@@ -172,5 +168,6 @@ npm start
 
 
 4. **Access:** Open `http://localhost:3000` in your browser.
+
 
 
