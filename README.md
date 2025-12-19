@@ -1,4 +1,4 @@
-﻿# Flipr-assignment
+
 Here is a simple, professional documentation structure for your project. You can save this as a `README.md` file in your GitHub repository or submit it as a separate document.
 
 I have structured this to map directly to the requirements mentioned in the assignment PDF to show the evaluator you have covered all bases.
@@ -152,6 +152,7 @@ npm start
 
 
 4. **Access:** Open `http://localhost:3000` in your browser.
+
 
 
 
