@@ -21,12 +21,10 @@ This application is a full-stack solution consisting of a public-facing **Landin
 **Database:** MongoDB Atlas (Cloud Database) 
 
 
-* 
-**Version Control:** Git & GitHub 
+* **Version Control:** Git & GitHub 
 
 
-* 
-**Deployment:** [Insert your platform here, e.g., Vercel/Render/Heroku/AWS] 
+* **Deployment:** [Insert your platform here, e.g., Vercel/Render/Heroku/AWS] 
 
 
 
@@ -60,39 +58,31 @@ I designed four main data schemas to meet the data management requirements:
 I created a RESTful API to handle data flow between the database and the frontend:
 
 * **Public Endpoints:**
-* 
-`GET /projects`: Fetches all projects for the "Our Projects" section.
+* `GET /projects`: Fetches all projects for the "Our Projects" section.
 
 
-* 
-`GET /clients`: Fetches client testimonials for "Happy Clients".
+* `GET /clients`: Fetches client testimonials for "Happy Clients".
 
 
-* 
-`POST /contact`: Receives contact form submissions.
+* `POST /contact`: Receives contact form submissions.
 
 
-* 
-`POST /subscribe`: Receives newsletter subscriptions.
+* `POST /subscribe`: Receives newsletter subscriptions.
 
 
 
 
 * **Admin Endpoints:**
-* 
-`POST /admin/project`: Adds new projects.
+* `POST /admin/project`: Adds new projects.
 
 
-* 
-`POST /admin/client`: Adds new client details.
+* `POST /admin/client`: Adds new client details.
 
 
-* 
-`GET /admin/contacts`: Retrieves all contact form inquiries.
+* `GET /admin/contacts`: Retrieves all contact form inquiries.
 
 
-* 
-`GET /admin/subscribers`: Retrieves all subscribed emails.
+* `GET /admin/subscribers`: Retrieves all subscribed emails.
 
 
 
@@ -102,12 +92,10 @@ I created a RESTful API to handle data flow between the database and the fronten
 
 I built a responsive landing page closely following the provided reference design:
 
-* 
-**Dynamic Sections:** The "Our Project" and "Happy Clients" sections are not hardcoded; they fetch data from the backend API on page load.
+* **Dynamic Sections:** The "Our Project" and "Happy Clients" sections are not hardcoded; they fetch data from the backend API on page load.
 
 
-* 
-**Forms:** Implemented the "Get a Free Consultation" form and Newsletter input with validation to ensure correct data is sent to the backend.
+* **Forms:** Implemented the "Get a Free Consultation" form and Newsletter input with validation to ensure correct data is sent to the backend.
 
 
 
@@ -115,23 +103,19 @@ I built a responsive landing page closely following the provided reference desig
 
 I created a dashboard interface for content management:
 
-* 
-**Input Forms:** Created forms for the admin to easily upload project and client details.
+* **Input Forms:** Created forms for the admin to easily upload project and client details.
 
 
-* 
-**Data Visualization:** Created tables to display incoming contact requests and subscriber lists in a readable format.
+* **Data Visualization:** Created tables to display incoming contact requests and subscriber lists in a readable format.
 
 
 
 ### Step 6: Deployment
 
-* 
-**Database:** Connected the application to a live MongoDB Atlas cluster.
+* **Database:** Connected the application to a live MongoDB Atlas cluster.
 
 
-* 
-**Hosting:** Deployed the frontend and backend to [Insert Platform] to ensure the application is publicly accessible as required.
+* **Hosting:** Deployed the frontend and backend to [Insert Platform] to ensure the application is publicly accessible as required.
 
 
 
@@ -168,6 +152,7 @@ npm start
 
 
 4. **Access:** Open `http://localhost:3000` in your browser.
+
 
 
 
