@@ -1,7 +1,5 @@
 # Project Documentation: Full Stack Application
 
-**Repository:** [https://github.com/anandstomar/Flipr-assignment](https://github.com/anandstomar/Flipr-assignment)
-
 ## 1. Project Overview
 
 This application is a full-stack solution consisting of a public-facing **Landing Page** and a restricted **Admin Panel**. It allows the site owner to manage content (projects, clients) dynamically and collect user data (consultation requests, newsletter subscriptions).
@@ -145,6 +143,7 @@ npm start
 
 
 4. **Access:** Open `http://localhost:3000` in your browser.
+
 
 
 
